@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Kepler7.core/Kepler7.core.csproj" />
+  <Project Path="Kepler7.game/Kepler7.game.csproj" />
+</Solution>
