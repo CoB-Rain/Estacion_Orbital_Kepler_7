@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\AtacarComando.cs" />
+    <Compile Include="Command\ConstruirComando.cs" />
+    <Compile Include="Command\CurarComando.cs" />
+    <Compile Include="Command\Estacion.cs" />
+    <Compile Include="Command\GestorComandos.cs" />
+    <Compile Include="Command\IComando.cs" />
+    <Compile Include="Command\MoverComando.cs" />
+    <Compile Include="Command\Unidad.cs" />
     <Compile Include="ConcreteNave.cs" />
     <Compile Include="INaveBuilder.cs" />
     <Compile Include="IngenieroJefe.cs" />
@@ -52,5 +60,6 @@
     <None Include="Builder\DC - Builder.cd" />
     <None Include="Prototype\DC - Prototype.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
