@@ -41,7 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteNave.cs" />
+    <Compile Include="INaveBuilder.cs" />
+    <Compile Include="IngenieroJefe.cs" />
+    <Compile Include="Nave.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoNave.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Builder\DC - Builder.cd" />
+    <None Include="Prototype\DC - Prototype.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
