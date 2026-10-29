@@ -44,11 +44,11 @@
     <Compile Include="Command\AtacarComando.cs" />
     <Compile Include="Command\ConstruirComando.cs" />
     <Compile Include="Command\CurarComando.cs" />
-    <Compile Include="Command\Estacion.cs" />
+    <Compile Include="Modelos\Estacion.cs" />
     <Compile Include="Command\GestorComandos.cs" />
     <Compile Include="Command\IComando.cs" />
     <Compile Include="Command\MoverComando.cs" />
-    <Compile Include="Command\Unidad.cs" />
+    <Compile Include="Modelos\Unidad.cs" />
     <Compile Include="ConcreteNave.cs" />
     <Compile Include="INaveBuilder.cs" />
     <Compile Include="IngenieroJefe.cs" />
